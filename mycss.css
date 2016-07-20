@@ -35,6 +35,7 @@ ul {
     margin-left: 0px;
     overflow: hidden;
     background-color: rgb(26, 75, 153);
+        padding-left: 18%;
 }
 li {
     float: left;
