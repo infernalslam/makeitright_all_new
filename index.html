@@ -6,37 +6,11 @@
         <title>MakeItRight</title>
         <link rel="stylesheet" href="./css/bootstrap-all.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Optional theme -->
-        <!-- <link rel="stylesheet" href="./css/bootstrap-theme.css"> -->
-
-        <!-- Latest compiled and minified JavaScript -->
+        <script src="./countdown.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
 
     </head>
     <body>
-        <!-- <div class="menu-bar navbar-fixed-top">
-            <ul id="nav-bar" id="top">
-                <li>
-                    <a href="#top">Make It Right</a>
-                </li>
-                <li>
-                    <a href="#Special">Special Package</a>
-                </li>
-                <li>
-                    <a href="#Product">Product & Reward</a>
-                </li>
-                <li>
-                    <a href="#Mini">Mini Concert</a>
-                </li>
-                <li>
-                    <a href="#Point">Point</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact Us</a>
-                </li>
-            </ul>
-        </div> -->
-
         <div class="menu-bar navbar-fixed-top">
             <ul id="nav-bar" id="top">
                 <li>
@@ -122,43 +96,7 @@
             <div class="bg1"></div>
         </div>
 
-        <!-- set3 -->
-        <!-- <div class="section3" id="Product">
-            <div class="productreward">
-                Product & Reward
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <img src="./img/product1.png" class="img-responsive" alt="Responsicve image"/>
-
-                    <div class="cricle">
-                        <div data-toggle="collapse" data-target="#product1">
-                            <img src="./img/btn.png" class="img-responsive curser" alt="Responsicve image"/>
-                        </div>
-                    </div>
-                    <div class="collapse" id="product1">
-                        <div class="well">
-                            test1
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <img src="./img/product2.png" class="img-responsive" alt="Responsicve image"/>
-
-                    <div class="cricle">
-                        <div data-toggle="collapse" data-target="#product2">
-                            <img src="./img/btn.png" class="img-responsive curser" alt="Responsicve image"/>
-                        </div>
-                    </div>
-                    <div class="collapse" id="product2">
-                        <div class="well">
-                            test2
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
- -->
+        
 
    <div class="section3" id="Product">
                 <div class="row">
@@ -649,6 +587,9 @@
 
 
             <script type="text/javascript">
+            // var data = countdown( new Date(2016, 7, 25) ).toString();
+            var data = countdown(new Date(2016, 7, 25))
+            console.log(data)
             var lastId,
                 topMenu = $(".menu-bar"),
                 topMenuHeight = topMenu.outerHeight() + 15,
