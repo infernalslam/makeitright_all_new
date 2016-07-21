@@ -35,28 +35,29 @@ ul {
     margin-left: 0px;
     overflow: hidden;
     background-color: rgb(26, 75, 153);
-        padding-left: 0%;
+    padding-left: 0%;
+    vertical-align: middle;
+    text-align: center;
 }
 li {
-    float: left;
-    margin-left: 28px;
+    /*float: left;*/
+    margin: 0 25px;
+    margin-top: 5px;
+    display: inline-block;
 }
 li a {
     display: inline-block;
     color: white;
-    /*changes text of the nav bar */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     letter-spacing: 0.15em;
     padding: 15px 0;
-    margin: 0px 35px;
+    /*margin: 0px 35px;*/
     border-bottom: 2px solid rgb(26, 75, 153);
     transition: 0.3s ease;
 }
 li a:hover a:active {
-    /*margin-left: 0px;*/
-    /*border-bottom: 2px solid rgb(246, 182, 4);*/
     border-bottom: 5px solid rgb(246, 182, 4);
     background-color: rgb(25, 67, 79);
 }
@@ -83,7 +84,7 @@ li a:hover a:active {
     box-shadow: 9px 8px 17px -1px rgba(163, 163, 163, 0.69);
 }*/
 
-/*ส่วนเเสดงข้อความทางด้านซ้ายมือตรง Youtube*/
+/*ด่วนเเสดงข้อความทางด้านซ้ายมือตรง Youtube*/
 
 .feature {
     margin-left: 622px;
@@ -846,7 +847,7 @@ background-repeat: no-repeat;
 .buybtn {
     left: 0px;
     right: 0px;
-    margin: -50px auto auto 95.5px;
+    margin: -50px auto auto auto;
     max-width: 100%;
 }
 
@@ -857,3 +858,23 @@ background-repeat: no-repeat;
     background: #fff;
     margin-top: 73px;
 }
+
+/*อย่างน้อย 770px*/
+
+/*@media (min-width:770px) {
+    .aum-nav.navbar-nav> li {
+        float: none !important;
+        display: inline-block;
+    }
+    .collapse.navbar-collapse {
+        text-align: center;
+        float: none !important;
+    }
+    .collapse.navbar-collapse ul {
+        float: none !important;
+    }
+}
+
+body {
+    padding-top: 50px;
+}*/
